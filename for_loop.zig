@@ -11,7 +11,7 @@ pub fn main() !void {
         const input = try std.fmt.parseInt(usize, text, 10);
 
         for (0..input) |i| {
-            std.debug.print("i: {}\n", .{i});
+            std.debug.print("Iteration: {}\n", .{i});
         }
     }
 }
