@@ -4,7 +4,7 @@ pub fn main() !void {
     const print = std.debug.print;
 
     var x: i32 = 42;
-    const ptr: *i32 = &x;
+    const ptr: *i32 = &x; // This is the general way to assign a pointer in Zig
 
     ptr.* = 36;
 
