@@ -8,6 +8,7 @@ pub fn main() !void {
     const slice1 = arr[0..6];
     const slice2 = arr[3..6];
 
+    print("Array: {any}\n", .{arr});
     print("Slice 1: {any}\n", .{slice1});
     print("Slice 2: {any}\n", .{slice2});
 }
