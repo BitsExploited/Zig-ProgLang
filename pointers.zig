@@ -15,6 +15,8 @@ pub fn main() !void {
     print("Value from pointer of x: {}\n", .{ptr1.*});
     print("Memory address of x: {}", .{ptr1});
 
+    print("\n", .{});
+
     print("Value of y: {}\n", .{y});
     print("Value from pointer of y: {}\n", .{ptr2.*});
     print("Memory address of y: {}", .{ptr2});
