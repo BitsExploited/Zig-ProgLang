@@ -13,7 +13,7 @@ pub fn main() !void {
 
     print("Value of x: {}\n", .{x});
     print("Value from pointer of x: {}\n", .{ptr1.*});
-    print("Memory address of x: {}", .{ptr1});
+    print("Memory address of x: {}\n", .{ptr1});
 
     print("\n", .{});
 
