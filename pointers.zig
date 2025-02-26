@@ -9,7 +9,7 @@ pub fn main() !void {
     ptr1.* = 36;
 
     const y: i32 = 50;
-    const ptr2: *const i32 = 67; // If the pointer's variable is not going to change its value in the future (immutable) then we have to specify *const i32 when assigning the pointer
+    const ptr2: *const i32 = &y; // If the pointer's variable is not going to change its value in the future (immutable) then we have to specify *const i32 when assigning the pointer
 
     print("Value of x: {}\n", .{x});
     print("Value from pointer of x: {}\n", .{ptr1.*});
